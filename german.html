@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth"> <!-- Removed dark class, script will add it -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Germany's Role in Global Geopolitics</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind to use Inter font -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class', // Enable dark mode
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+    <!-- Load Inter font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply the font to the body */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-200 transition-colors duration-300">
+
+    <!-- Header -->
+                <div class="hidden sm:flex sm:space-x-4 items-center"> <!-- Added items-center -->
+                    <a href="#home" class="font-medium text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 transition duration-150 px-2 py-1 rounded-md text-sm">Home</a>
+                    <a href="#eu" class="font-medium text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 transition duration-150 px-2 py-1 rounded-md text-sm">EU</a>
+                    <a href="#nato" class="font-medium text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 transition duration-150 px-2 py-1 rounded-md text-sm">NATO</a>
+                    <a href="#policy" class="font-medium text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 transition duration-150 px-2 py-1 rounded-md text-sm">Policy</a>
+                    <a href="#history" class="font-medium text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 transition duration-150 px-2 py-1 rounded-md text-sm">History</a>
+                    <a href="#economy" class="font-medium text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 transition duration-150 px-2 py-1 rounded-md text-sm">Economy</a>
+                    <a href="#energy" class="font-medium text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 transition duration-150 px-2 py-1 rounded-md text-sm">Energy</a>
+                    <a href="#gemini" class="font-medium text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 transition duration-150 px-2 py-1 rounded-md text-sm">Ask Gemini</a>
+                    <a href="#conclusion" class="font-medium text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 transition duration-150 px-2 py-1 rounded-md text-sm">Conclusion</a>
+
+                    <!-- Dark Mode Toggle Button -->
+                    <button id="theme-toggle" class="ml-2 p-2 rounded-lg text-gray-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700 transition-colors duration-300">
+                        <!-- Moon Icon (default) -->
+                        <svg id="theme-icon-dark" class="h-5 w-5 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                        </svg>
+                        <!-- Sun Icon (hidden by default) -->
+                        <svg id="theme-icon-light" class="h-5 w-5 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-6.364-.386 1.591-1.591M3 12H.75m.386-6.364 1.591 1.591M12 12a2.25 2.25 0 0 0-2.25 2.25v.01c0 .317.031.63.091.932a2.25 2.25 0 0 0 4.318 0c.06-.302.091-.615.091-.932V14.25A2.25 2.25 0 0 0 12 12Z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="bg-blue-600 text-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 text-center">
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
+                    Germany's Global Influence
+                </h1>
+                <p class="mt-4 text-lg md:text-xl text-blue-100 max-w-3xl mx-auto">
+                    This website explores Germany’s evolving role in global geopolitics — from its leadership in the European Union and NATO to its economic power, foreign policy strategies, and sustainability goals.
+                </p>
+                <a href="#eu" class="mt-8 inline-block bg-white text-blue-600 font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-gray-100 transition duration-300">
+                    Explore
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="eu" class="py-16 md:py-24 bg-gray-50 dark:bg-gray-800">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <!-- Image Column -->
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+                        Germany in the European Union
+                    </h2>
+                    <p class="mt-1 text-sm text-gray-500 italic dark:text-gray-400">by Abishek G. K.</p>
+                    <p class="mt-4 text-lg text-gray-600 dark:text-gray-300">
+                        Germany stands as a leading member of the European Union, playing a pivotal role in shaping the bloc's trade policies, economic strategy, and political unity.
+                    </p>
+                    <p class="mt-4 text-gray-600 dark:text-gray-300">
+                        From navigating financial crises to championing integration, Germany's influence is central to the EU's past milestones and future direction.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="nato" class="py-16 md:py-24 bg-white dark:bg-gray-900">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <!-- Text Column -->
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+                        Germany in NATO
+                    </h2>
+                    <p class="mt-1 text-sm text-gray-500 italic dark:text-gray-400">by Iniyan S.</p>
+                    <p class="mt-4 text-lg text-gray-600 dark:text-gray-300">
+                        As a key member of the North Atlantic Treaty Organization, Germany is integral to the alliance's collective defense and shared objectives.
+                    </p>
+                    <p class="mt-4 text-gray-600 dark:text-gray-300">
+                        The nation actively participates in defense collaborations, contributes to peacekeeping missions, and engages in strategic dialogues that define NATO's role in global security.
+                    </p>
+                </div>
+                <!-- Image Column -->
+                <div>
+                    <img src="https://placehold.co/600x400/1E40AF/FFFFFF?text=NATO+Alliance+Map" alt="NATO map highlighting Germany" class="rounded-lg shadow-xl w-full">
+                </div>
+            </div>
+        </section>
+
+        <!-- Foreign Policy Section -->
+        <section id="policy" class="py-16 md:py-24 bg-gray-50 dark:bg-gray-800">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <!-- Image Column -->
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+                        Foreign Policy & Global Relations
+                    </h2>
+                    <p class="mt-1 text-sm text-gray-500 italic dark:text-gray-400">by Srikar A.</p>
+                    <p class="mt-4 text-lg text-gray-600 dark:text-gray-300">
+                        Germany's foreign policy is built on a foundation of multilateralism, maintaining strong diplomatic relationships across the globe and playing a significant role in the United Nations.
+                    </p>
+                    <p class="mt-4 text-gray-600 dark:text-gray-300">
+                        It often acts as a key mediator in international conflicts, leveraging its economic and political influence to foster stability and dialogue.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- History Section -->
+        <section id="history" class="py-16 md:py-24 bg-white dark:bg-gray-900">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+                    Historical Context
+                </h2>
+                <p class="mt-1 text-sm text-gray-500 italic dark:text-gray-400">by Nilesh S.</p>
+                <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto dark:text-gray-300">
+                    Understanding modern Germany requires looking at its political evolution post-WWII. From reconstruction and division to reunification, the nation transformed into a stable, leading democracy and economic powerhouse.
+                </p>
+                <!-- Simple Timeline Placeholder -->
+                <div class="mt-8 text-left border-l-4 border-blue-600 pl-4 dark:border-blue-500">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg dark:text-white">Post-WWII Reconstruction</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Laying the foundations for a new democratic identity and economic recovery.</p>
+                    </div>
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg dark:text-white">Reunification (1990)</h3>
+                        <p class="text-gray-600 dark:text-gray-300">The fall of the Berlin Wall marked a pivotal moment, merging East and West.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg dark:text-white">Rise as Economic Power</h3>
+                        <p class="text-gray-600 dark:text-gray-300">Becoming a global leader in industry, innovation, and trade.</p>
+                    </div>
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg">Reunification (1990)</h3>
+                        <p class="text-gray-600">The fall of the Berlin Wall marked a pivotal moment, merging East and West.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg">Rise as Economic Power</h3>
+                        <p class="text-gray-600">Becoming a global leader in industry, innovation, and trade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economy Section -->
+        <section id="economy" class="py-16 md:py-24 bg-gray-50 dark:bg-gray-800">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <!-- Image Column -->
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+                        Economics and GDP
+                    </h2>
+                    <p class="mt-1 text-sm text-gray-500 italic dark:text-gray-400">by Kevin P. R.</p>
+                    <p class="mt-4 text-lg text-gray-600 dark:text-gray-300">
+                        Germany's economic strength is a cornerstone of its global influence. As one of the world's top exporters, its economy is driven by robust industries, manufacturing excellence, and key innovation hubs.
+                    </p>
+                    <p class="mt-4 text-gray-600 dark:text-gray-300">
+                        Its significant GDP and strong trade balance are central to the economic stability of the entire Eurozone.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Energy Section -->
+        <section id="energy" class="py-16 md:py-24 bg-white dark:bg-gray-900">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <!-- Text Column -->
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+                        Energy Initiatives (Energiewende)
+                    </h2>
+                    <p class="mt-1 text-sm text-gray-500 italic dark:text-gray-400">by Brit Rollins U.</p>
+                    <p class="mt-4 text-lg text-gray-600 dark:text-gray-300">
+                        Germany is a global leader in renewable energy and sustainability. The "Energiewende" (Energy Transition) is its ambitious policy to shift from nuclear and fossil fuels to a low-carbon, sustainable energy supply.
+                    </p>
+                    <p class="mt-4 text-gray-600 dark:text-gray-300">
+                        This commitment to wind, solar, and green technologies shapes its domestic policy and its role in international climate agreements.
+                    </p>
+                </div>
+                <!-- Image Column -->
+                <div>
+                    <img src="https://placehold.co/600x400/1E40AF/FFFFFF?text=Renewable+Energy" alt="Wind turbines and solar farms" class="rounded-lg shadow-xl w-full">
+                </div>
+            </div>
+        </section>
+
+        <!-- Gemini Section -->
+        <section id="gemini" class="py-16 md:py-24 bg-gray-50 dark:bg-gray-800">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+                    Ask Gemini
+                </h2>
+                <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto dark:text-gray-300">
+                    Have a question about Germany's role in geopolitics? Ask Gemini for a summary.
+                </p>
+                <div class="mt-8 max-w-xl mx-auto">
+                    <div class="flex flex-col sm:flex-row gap-2">
+                        <input type="text" id="gemini-prompt" class="w-full px-4 py-3 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 border border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="e.g., 'What is Germany's stance on...?'">
+                        <button id="gemini-generate" class="w-full sm:w-auto bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300 flex-shrink-0">
+                            Generate
+                        </button>
+                    </div>
+                    <!-- Loading Spinner -->
+                    <div id="gemini-loading" class="mt-6 hidden">
+                        <div class="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-blue-500 border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]" role="status">
+                            <span class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Loading...</span>
+                        </div>
+                    </div>
+                    <!-- Result Box -->
+                    <div id="gemini-result" class="mt-6 p-6 bg-white dark:bg-gray-700 rounded-lg shadow-inner text-left text-gray-700 dark:text-gray-200 hidden whitespace-pre-wrap">
+                        <!-- Content will be injected here -->
+                    </div>
+                    <!-- Error Box -->
+                    <div id="gemini-error" class="mt-6 p-4 bg-red-100 dark:bg-red-900 border border-red-400 dark:border-red-700 text-red-700 dark:text-red-200 rounded-lg text-left hidden">
+                        <!-- Error message will be injected here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusion Section -->
+        <section id="conclusion" class="py-16 md:py-24 bg-blue-600 text-white">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <!-- Section Header -->
+                <div class="mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">
+                        Conclusion
+                    </h2>
+                    <p class="mt-4 text-lg text-blue-100 max-w-3xl mx-auto">
+                        From its industrial heart to its diplomatic core, Germany's significance in shaping the modern geopolitical landscape is undeniable. Its journey continues to be a case study in diplomacy, sustainability, and global cooperation.
+                    </p>
+                </div>
+                <img src="https://placehold.co/600x300/FFFFFF/3B82F6?text=Connected+Globe" alt="Germany's map glowing within a connected globe" class="rounded-lg shadow-xl w-full max-w-2xl mx-auto">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 dark:bg-gray-950">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-gray-400 dark:text-gray-500">
+            <p class="mb-2">
+                &copy; 2025 Germany's Role in Geopolitics. All rights reserved.
+            </p>
+            <p class="text-sm">
+                Project by: Abishek G. K., Iniyan S., Srikar A., Nilesh S., Kevin P. R., & Brit Rollins U.
+            </p>
+            <p class="text-sm mt-1">
+                SRM Institute of Science and Technology
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Dark Mode and Gemini API -->
+    <script type="module">
+        // --- Dark Mode Toggle ---
+        const themeToggle = document.getElementById('theme-toggle');
+        const iconDark = document.getElementById('theme-icon-dark');
+        const iconLight = document.getElementById('theme-icon-light');
+        const html = document.documentElement;
+
+        // Set initial theme based on system preference or saved theme
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            html.classList.add('dark');
+            iconLight.classList.remove('hidden');
+        } else {
+            html.classList.remove('dark');
+            iconDark.classList.remove('hidden');
+        }
+
+        themeToggle.addEventListener('click', () => {
+            html.classList.toggle('dark');
+            iconDark.classList.toggle('hidden');
+            iconLight.classList.toggle('hidden');
+        });
+
+        // --- Gemini API Call ---
+        const generateButton = document.getElementById('gemini-generate');
+        const promptInput = document.getElementById('gemini-prompt');
+        const resultContainer = document.getElementById('gemini-result');
+        const errorContainer = document.getElementById('gemini-error');
+        const loadingSpinner = document.getElementById('gemini-loading');
+
+        const systemPrompt = "You are an expert assistant specializing in German geopolitics and history. Answer the user's question concisely, focusing on Germany's role. Keep the response to 2-3 paragraphs.";
+        const apiKey = ""; // API key is handled by the environment
+        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+
+        // Exponential backoff retry logic
+        async function fetchWithRetry(url, options, retries = 3, delay = 1000) {
+            try {
+                const response = await fetch(url, options);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return await response.json();
+            } catch (error) {
+                if (retries > 0) {
+                    await new Promise(resolve => setTimeout(resolve, delay));
+                    return fetchWithRetry(url, options, retries - 1, delay * 2);
+                } else {
+                    throw error;
+                }
+            }
+        }
+
+        generateButton.addEventListener('click', async () => {
+            const userQuery = promptInput.value;
+            if (!userQuery) {
+                errorContainer.textContent = 'Please enter a question.';
+                errorContainer.classList.remove('hidden');
+                return;
+            }
+
+            // Reset UI
+            loadingSpinner.classList.remove('hidden');
+            resultContainer.classList.add('hidden');
+            errorContainer.classList.add('hidden');
+            resultContainer.textContent = '';
+            errorContainer.textContent = '';
+
+            const payload = {
+                contents: [{ parts: [{ text: userQuery }] }],
+                systemInstruction: {
+                    parts: [{ text: systemPrompt }]
+                },
+            };
+
+            try {
+                const result = await fetchWithRetry(apiUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                const candidate = result.candidates?.[0];
+                if (candidate && candidate.content?.parts?.[0]?.text) {
+                    const text = candidate.content.parts[0].text;
+                    resultContainer.textContent = text;
+                    resultContainer.classList.remove('hidden');
+                } else {
+                    throw new Error('No content received from API.');
+                }
+
+            } catch (error) {
+                console.error('Error fetching from Gemini:', error);
+                errorContainer.textContent = 'Sorry, an error occurred while generating the response. Please try again.';
+                errorContainer.classList.remove('hidden');
+            } finally {
+                loadingSpinner.classList.add('hidden');
+            }
+        });
+    </script>
+
+</body>
+</html>
+
